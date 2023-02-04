@@ -30,7 +30,7 @@ function NavBar() {
   }
 
     return (
-        <Navbar bg="dark" expand="lg"variant="dark">
+        <Navbar bg="light" expand="lg"variant="light">
         <Container fluid>
           <Navbar.Brand href="#">Prueba Tecnica</Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
@@ -42,9 +42,7 @@ function NavBar() {
             >
               <Nav.Link href="/addCliente"><Button>CREAR CLIENTE</Button></Nav.Link>
               
-              <Nav.Link href="#" disabled>
-                Link
-              </Nav.Link>
+           
             </Nav>
             <Form className="d-flex">
               <Form.Control

@@ -3,6 +3,10 @@
 
     color: rgb(134, 65, 65);
 }
+.contenedorm{
+    display: flex;
+    justify-content: center;
+}
 .contenedor input {
     
   
@@ -21,6 +25,7 @@
 .contenedor {
     color: #fff;
     font-weight: 600;
-    align-items: center;
-    
+    /* display: flex;
+    flex-direction: column;
+     */
 }

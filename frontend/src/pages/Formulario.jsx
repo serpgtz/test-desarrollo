@@ -55,7 +55,7 @@ const Formulario = () => {
 
 
 	return (
-		<>
+		<div className={s.contenedorm}>
 			<Formik
 				initialValues={{
 					nombre: '',
@@ -179,7 +179,7 @@ const Formulario = () => {
 
 			
 			</Formik>
-		</>
+		</div>
 	);
 }
  

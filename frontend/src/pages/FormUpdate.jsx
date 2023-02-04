@@ -61,7 +61,7 @@ const FormUpdate = () => {
 
 
 	return (
-		<>
+		<div className={s.contenedorm}>
 			
 			<Formik
 				initialValues={{
@@ -187,7 +187,7 @@ const FormUpdate = () => {
 			
 			</Formik>
 			
-		</>
+			</div>
 	);
 }
  

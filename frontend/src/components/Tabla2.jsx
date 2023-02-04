@@ -19,13 +19,13 @@ function Tabla2({id,apellidoM,apellidoP,nombre,calle,telefono,colonia,numero}) {
         console.log(id)
         alert("borrado",)
         dispatch(deleteItem(id))
-        navigate(-1)
+        
     }
 
     
   return (
-    <>
-    <Table striped bordered hover>
+    <div className="container-fluid">
+    <Table  bg="light" variant="light"expand="lg" striped bordered hover>
       <thead>
         <tr>
           <th>ID</th>
@@ -50,7 +50,9 @@ function Tabla2({id,apellidoM,apellidoP,nombre,calle,telefono,colonia,numero}) {
           <td>{colonia}</td>
           <td>{telefono}</td>
           <td><span onClick={()=>handleDelete(id)}>
+          <Link to="/">
           <i class="bi bi-trash"></i>
+          </Link>
             </span>
             <span >
               <Link to={"/actualizar/"+id}>
@@ -66,7 +68,7 @@ function Tabla2({id,apellidoM,apellidoP,nombre,calle,telefono,colonia,numero}) {
     </Table>
     
   
-    </>
+    </div>
   );
 }
 
