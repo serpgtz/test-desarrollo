@@ -1,0 +1,15 @@
+.master{
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor {
+    background-color: rgb(112, 117, 117);
+    width: 50vw;
+    height: 30vh;
+    align-items: center;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+   
+}

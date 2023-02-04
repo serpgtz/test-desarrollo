@@ -15,6 +15,13 @@ const ClientSchema = mongoose.Schema({
         type: String,
         required:true
     },
+    nombreCompleto: {
+        type: String,
+        required: true,
+        default: function() {
+            return `${this.nombre} ${this.apellidoP} ${this.apellidoM}`;
+        }
+    },
  
     calle: {
         type: String,

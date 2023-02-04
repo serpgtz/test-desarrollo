@@ -6,11 +6,11 @@
   "scripts": {
     "start": "node api/server.js",
     "server": "nodemon api/server.js"
-
   },
   "author": "sergio partida",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "mongoose": "^6.9.0"
